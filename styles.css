@@ -1,0 +1,22 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header ul {
+    color: #e5e7eb;
+}
+
+.header h1 {
+    margin: 0;
+}
