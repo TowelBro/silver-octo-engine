@@ -30,6 +30,18 @@ body {
 ul a {
     text-decoration: none;
     color: #e5e7eb;
+
+}
+
+ul li {
+    border-right: solid 1px #e5e7eb;
+    padding: 0 1rem;
+    padding-left: 0;
+    
+}
+
+ul li:last-of-type {
+    border-right: none;
 }
 
 .header h3 {
@@ -58,7 +70,7 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .hero-image img {
