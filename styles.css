@@ -47,7 +47,7 @@ ul a {
 }
 
 .box-one, .box-two, .box-three, .box-four{
-    height: 300px;
+    height: 500px;
     width: 100%;
    
     
@@ -57,6 +57,7 @@ ul a {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -100,9 +101,61 @@ ul a {
 
 }
 
+.box-two h2 {
+    text-align: center;
+    margin: 40px;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.cat-pictures {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cat-pictures img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+  
+}
+
+.info {
+    max-width: 200px;
+    height: 200px;
+    text-align: center;
+    color:#1f2937;
+}
+
 .box-three {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote {
+    width: 1500px;
+    height: 400px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    color:#1f2937;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
 
 .box-four {
     background-color: white;
