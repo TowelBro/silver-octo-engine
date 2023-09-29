@@ -24,6 +24,12 @@ body {
     display: flex;
     font-size: 18px;
     gap: 16px;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .header h3 {
@@ -57,6 +63,7 @@ body {
 .hero-image img {
     height: auto;
     width: 400px;
+    border-radius: 10px;
 }
 
 .hero-text {
@@ -77,6 +84,15 @@ body {
 .hero-text p {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
 }
 
 .box-two {
