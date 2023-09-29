@@ -12,13 +12,18 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     margin: 0;
-    padding: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
    
 }
 
 .header ul {
     color: #e5e7eb;
     margin: 0;
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
 }
 
 .header h3 {
@@ -35,19 +40,54 @@ body {
     padding: 0;
 }
 
-.box-one .box-two, .box-three, .box-four{
+.box-one, .box-two, .box-three, .box-four{
+    height: 300px;
+    width: 100%;
    
     
 }
 
 .box-one {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero-image img {
+    height: auto;
+    width: 400px;
+}
+
+.hero-text {
+    width: 400px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    padding:0;
+    margin:0;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .box-two {
+    background-color: white;
 
 }
 
 .box-three {
     background-color: #e5e7eb;
+}
+
+.box-four {
+    background-color: white;
 }
